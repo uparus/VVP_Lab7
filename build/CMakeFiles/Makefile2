@@ -84,12 +84,12 @@ clean: CMakeFiles/VVP_Lab7.dir/clean
 CMakeFiles/VVP_Lab7.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\VVP_Lab7.dir\build.make CMakeFiles/VVP_Lab7.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\VVP_Lab7.dir\build.make CMakeFiles/VVP_Lab7.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\projects\VVP_Lab7\build\CMakeFiles --progress-num=1,2,3 "Built target VVP_Lab7"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\projects\VVP_Lab7\build\CMakeFiles --progress-num=1,2,3,4,5 "Built target VVP_Lab7"
 .PHONY : CMakeFiles/VVP_Lab7.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/VVP_Lab7.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\projects\VVP_Lab7\build\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\projects\VVP_Lab7\build\CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/VVP_Lab7.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\projects\VVP_Lab7\build\CMakeFiles 0
 .PHONY : CMakeFiles/VVP_Lab7.dir/rule
@@ -101,7 +101,7 @@ VVP_Lab7: CMakeFiles/VVP_Lab7.dir/rule
 # codegen rule for target.
 CMakeFiles/VVP_Lab7.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\VVP_Lab7.dir\build.make CMakeFiles/VVP_Lab7.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\projects\VVP_Lab7\build\CMakeFiles --progress-num=1,2,3 "Finished codegen for target VVP_Lab7"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\projects\VVP_Lab7\build\CMakeFiles --progress-num=1,2,3,4,5 "Finished codegen for target VVP_Lab7"
 .PHONY : CMakeFiles/VVP_Lab7.dir/codegen
 
 # clean rule for target.

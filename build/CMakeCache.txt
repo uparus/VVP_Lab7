@@ -248,6 +248,15 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
+Project_BINARY_DIR:STATIC=C:/projects/VVP_Lab7/build
+
+//Value Computed by CMake
+Project_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+Project_SOURCE_DIR:STATIC=C:/projects/VVP_Lab7
+
+//Value Computed by CMake
 VVP_Lab7_BINARY_DIR:STATIC=C:/projects/VVP_Lab7/build
 
 //Value Computed by CMake

@@ -159,6 +159,30 @@ JsonService.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\VVP_Lab7.dir\build.make CMakeFiles/VVP_Lab7.dir/JsonService.cpp.s
 .PHONY : JsonService.cpp.s
 
+XmlService.obj: XmlService.cpp.obj
+.PHONY : XmlService.obj
+
+# target to build an object file
+XmlService.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VVP_Lab7.dir\build.make CMakeFiles/VVP_Lab7.dir/XmlService.cpp.obj
+.PHONY : XmlService.cpp.obj
+
+XmlService.i: XmlService.cpp.i
+.PHONY : XmlService.i
+
+# target to preprocess a source file
+XmlService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VVP_Lab7.dir\build.make CMakeFiles/VVP_Lab7.dir/XmlService.cpp.i
+.PHONY : XmlService.cpp.i
+
+XmlService.s: XmlService.cpp.s
+.PHONY : XmlService.s
+
+# target to generate assembly for a file
+XmlService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VVP_Lab7.dir\build.make CMakeFiles/VVP_Lab7.dir/XmlService.cpp.s
+.PHONY : XmlService.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -183,6 +207,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\VVP_Lab7.dir\build.make CMakeFiles/VVP_Lab7.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+pugixml-1.15/src/pugixml.obj: pugixml-1.15/src/pugixml.cpp.obj
+.PHONY : pugixml-1.15/src/pugixml.obj
+
+# target to build an object file
+pugixml-1.15/src/pugixml.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VVP_Lab7.dir\build.make CMakeFiles/VVP_Lab7.dir/pugixml-1.15/src/pugixml.cpp.obj
+.PHONY : pugixml-1.15/src/pugixml.cpp.obj
+
+pugixml-1.15/src/pugixml.i: pugixml-1.15/src/pugixml.cpp.i
+.PHONY : pugixml-1.15/src/pugixml.i
+
+# target to preprocess a source file
+pugixml-1.15/src/pugixml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VVP_Lab7.dir\build.make CMakeFiles/VVP_Lab7.dir/pugixml-1.15/src/pugixml.cpp.i
+.PHONY : pugixml-1.15/src/pugixml.cpp.i
+
+pugixml-1.15/src/pugixml.s: pugixml-1.15/src/pugixml.cpp.s
+.PHONY : pugixml-1.15/src/pugixml.s
+
+# target to generate assembly for a file
+pugixml-1.15/src/pugixml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VVP_Lab7.dir\build.make CMakeFiles/VVP_Lab7.dir/pugixml-1.15/src/pugixml.cpp.s
+.PHONY : pugixml-1.15/src/pugixml.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -196,9 +244,15 @@ help:
 	@echo ... JsonService.obj
 	@echo ... JsonService.i
 	@echo ... JsonService.s
+	@echo ... XmlService.obj
+	@echo ... XmlService.i
+	@echo ... XmlService.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... pugixml-1.15/src/pugixml.obj
+	@echo ... pugixml-1.15/src/pugixml.i
+	@echo ... pugixml-1.15/src/pugixml.s
 .PHONY : help
 
 

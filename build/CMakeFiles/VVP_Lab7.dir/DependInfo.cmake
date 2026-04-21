@@ -9,7 +9,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/projects/VVP_Lab7/JsonService.cpp" "CMakeFiles/VVP_Lab7.dir/JsonService.cpp.obj" "gcc" "CMakeFiles/VVP_Lab7.dir/JsonService.cpp.obj.d"
+  "C:/projects/VVP_Lab7/XmlService.cpp" "CMakeFiles/VVP_Lab7.dir/XmlService.cpp.obj" "gcc" "CMakeFiles/VVP_Lab7.dir/XmlService.cpp.obj.d"
   "C:/projects/VVP_Lab7/main.cpp" "CMakeFiles/VVP_Lab7.dir/main.cpp.obj" "gcc" "CMakeFiles/VVP_Lab7.dir/main.cpp.obj.d"
+  "C:/projects/VVP_Lab7/pugixml-1.15/src/pugixml.cpp" "CMakeFiles/VVP_Lab7.dir/pugixml-1.15/src/pugixml.cpp.obj" "gcc" "CMakeFiles/VVP_Lab7.dir/pugixml-1.15/src/pugixml.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

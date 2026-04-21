@@ -1,14 +1,26 @@
 [
 {
   "directory": "C:/projects/VVP_Lab7/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\VVP_Lab7.dir\\JsonService.cpp.obj -c C:\\projects\\VVP_Lab7\\JsonService.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/VVP_Lab7.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\VVP_Lab7.dir\\main.cpp.obj -c C:\\projects\\VVP_Lab7\\main.cpp",
+  "file": "C:/projects/VVP_Lab7/main.cpp",
+  "output": "CMakeFiles/VVP_Lab7.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/projects/VVP_Lab7/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/VVP_Lab7.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\VVP_Lab7.dir\\JsonService.cpp.obj -c C:\\projects\\VVP_Lab7\\JsonService.cpp",
   "file": "C:/projects/VVP_Lab7/JsonService.cpp",
   "output": "CMakeFiles/VVP_Lab7.dir/JsonService.cpp.obj"
 },
 {
   "directory": "C:/projects/VVP_Lab7/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\VVP_Lab7.dir\\main.cpp.obj -c C:\\projects\\VVP_Lab7\\main.cpp",
-  "file": "C:/projects/VVP_Lab7/main.cpp",
-  "output": "CMakeFiles/VVP_Lab7.dir/main.cpp.obj"
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/VVP_Lab7.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\VVP_Lab7.dir\\XmlService.cpp.obj -c C:\\projects\\VVP_Lab7\\XmlService.cpp",
+  "file": "C:/projects/VVP_Lab7/XmlService.cpp",
+  "output": "CMakeFiles/VVP_Lab7.dir/XmlService.cpp.obj"
+},
+{
+  "directory": "C:/projects/VVP_Lab7/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/VVP_Lab7.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\VVP_Lab7.dir\\pugixml-1.15\\src\\pugixml.cpp.obj -c C:\\projects\\VVP_Lab7\\pugixml-1.15\\src\\pugixml.cpp",
+  "file": "C:/projects/VVP_Lab7/pugixml-1.15/src/pugixml.cpp",
+  "output": "CMakeFiles/VVP_Lab7.dir/pugixml-1.15/src/pugixml.cpp.obj"
 }
 ]
