@@ -9,4 +9,6 @@ add_executable(VVP_Lab7
     JsonService.h
     JsonService.cpp
     main.cpp
+    XmlService.h
+    XmlService.cpp
         )

@@ -20,7 +20,7 @@ Weather JsonService::getWeather(string s)
     double lon = j["coord"]["lon"];
     double lat = j["coord"]["lat"];
     double temperature = j["main"]["temp"];
-    string weather = j["weather"]["main"];
+    string weather = j["weather"][0]["main"];
     double windSpeed = j["wind"]["speed"];
     int clouds = j["clouds"]["all"];
     return Weather(city,lon,lat,temperature,weather,windSpeed,clouds);

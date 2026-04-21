@@ -159,6 +159,30 @@ JsonService.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\VVP_Lab7.dir\build.make CMakeFiles/VVP_Lab7.dir/JsonService.cpp.s
 .PHONY : JsonService.cpp.s
 
+XmlService.obj: XmlService.cpp.obj
+.PHONY : XmlService.obj
+
+# target to build an object file
+XmlService.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VVP_Lab7.dir\build.make CMakeFiles/VVP_Lab7.dir/XmlService.cpp.obj
+.PHONY : XmlService.cpp.obj
+
+XmlService.i: XmlService.cpp.i
+.PHONY : XmlService.i
+
+# target to preprocess a source file
+XmlService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VVP_Lab7.dir\build.make CMakeFiles/VVP_Lab7.dir/XmlService.cpp.i
+.PHONY : XmlService.cpp.i
+
+XmlService.s: XmlService.cpp.s
+.PHONY : XmlService.s
+
+# target to generate assembly for a file
+XmlService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VVP_Lab7.dir\build.make CMakeFiles/VVP_Lab7.dir/XmlService.cpp.s
+.PHONY : XmlService.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -196,6 +220,9 @@ help:
 	@echo ... JsonService.obj
 	@echo ... JsonService.i
 	@echo ... JsonService.s
+	@echo ... XmlService.obj
+	@echo ... XmlService.i
+	@echo ... XmlService.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
