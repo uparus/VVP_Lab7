@@ -1,5 +1,4 @@
-#ifndef WEAHTERSERVICE_H
-#define WEATHERSERVICE_H
+#pragma once
 
 #include <iostream>
 #include <string>
@@ -24,4 +23,3 @@ public:
 
 
 
-#endif

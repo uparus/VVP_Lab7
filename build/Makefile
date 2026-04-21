@@ -159,29 +159,29 @@ JsonService.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\VVP_Lab7.dir\build.make CMakeFiles/VVP_Lab7.dir/JsonService.cpp.s
 .PHONY : JsonService.cpp.s
 
-WeatherService.obj: WeatherService.cpp.obj
-.PHONY : WeatherService.obj
+main.obj: main.cpp.obj
+.PHONY : main.obj
 
 # target to build an object file
-WeatherService.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\VVP_Lab7.dir\build.make CMakeFiles/VVP_Lab7.dir/WeatherService.cpp.obj
-.PHONY : WeatherService.cpp.obj
+main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VVP_Lab7.dir\build.make CMakeFiles/VVP_Lab7.dir/main.cpp.obj
+.PHONY : main.cpp.obj
 
-WeatherService.i: WeatherService.cpp.i
-.PHONY : WeatherService.i
+main.i: main.cpp.i
+.PHONY : main.i
 
 # target to preprocess a source file
-WeatherService.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\VVP_Lab7.dir\build.make CMakeFiles/VVP_Lab7.dir/WeatherService.cpp.i
-.PHONY : WeatherService.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VVP_Lab7.dir\build.make CMakeFiles/VVP_Lab7.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-WeatherService.s: WeatherService.cpp.s
-.PHONY : WeatherService.s
+main.s: main.cpp.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-WeatherService.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\VVP_Lab7.dir\build.make CMakeFiles/VVP_Lab7.dir/WeatherService.cpp.s
-.PHONY : WeatherService.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VVP_Lab7.dir\build.make CMakeFiles/VVP_Lab7.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -196,9 +196,9 @@ help:
 	@echo ... JsonService.obj
 	@echo ... JsonService.i
 	@echo ... JsonService.s
-	@echo ... WeatherService.obj
-	@echo ... WeatherService.i
-	@echo ... WeatherService.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 

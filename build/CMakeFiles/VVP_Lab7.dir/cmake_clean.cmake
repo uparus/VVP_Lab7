@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/VVP_Lab7.dir/JsonService.cpp.obj"
   "CMakeFiles/VVP_Lab7.dir/JsonService.cpp.obj.d"
-  "CMakeFiles/VVP_Lab7.dir/WeatherService.cpp.obj"
-  "CMakeFiles/VVP_Lab7.dir/WeatherService.cpp.obj.d"
+  "CMakeFiles/VVP_Lab7.dir/main.cpp.obj"
+  "CMakeFiles/VVP_Lab7.dir/main.cpp.obj.d"
   "VVP_Lab7.exe"
   "VVP_Lab7.exe.manifest"
   "VVP_Lab7.pdb"

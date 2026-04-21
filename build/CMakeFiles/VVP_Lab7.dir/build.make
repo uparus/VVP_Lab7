@@ -71,24 +71,10 @@ include CMakeFiles/VVP_Lab7.dir/flags.make
 CMakeFiles/VVP_Lab7.dir/codegen:
 .PHONY : CMakeFiles/VVP_Lab7.dir/codegen
 
-CMakeFiles/VVP_Lab7.dir/WeatherService.cpp.obj: CMakeFiles/VVP_Lab7.dir/flags.make
-CMakeFiles/VVP_Lab7.dir/WeatherService.cpp.obj: C:/projects/VVP_Lab7/WeatherService.cpp
-CMakeFiles/VVP_Lab7.dir/WeatherService.cpp.obj: CMakeFiles/VVP_Lab7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\projects\VVP_Lab7\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/VVP_Lab7.dir/WeatherService.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VVP_Lab7.dir/WeatherService.cpp.obj -MF CMakeFiles\VVP_Lab7.dir\WeatherService.cpp.obj.d -o CMakeFiles\VVP_Lab7.dir\WeatherService.cpp.obj -c C:\projects\VVP_Lab7\WeatherService.cpp
-
-CMakeFiles/VVP_Lab7.dir/WeatherService.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VVP_Lab7.dir/WeatherService.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\projects\VVP_Lab7\WeatherService.cpp > CMakeFiles\VVP_Lab7.dir\WeatherService.cpp.i
-
-CMakeFiles/VVP_Lab7.dir/WeatherService.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VVP_Lab7.dir/WeatherService.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\projects\VVP_Lab7\WeatherService.cpp -o CMakeFiles\VVP_Lab7.dir\WeatherService.cpp.s
-
 CMakeFiles/VVP_Lab7.dir/JsonService.cpp.obj: CMakeFiles/VVP_Lab7.dir/flags.make
 CMakeFiles/VVP_Lab7.dir/JsonService.cpp.obj: C:/projects/VVP_Lab7/JsonService.cpp
 CMakeFiles/VVP_Lab7.dir/JsonService.cpp.obj: CMakeFiles/VVP_Lab7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\projects\VVP_Lab7\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/VVP_Lab7.dir/JsonService.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\projects\VVP_Lab7\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/VVP_Lab7.dir/JsonService.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VVP_Lab7.dir/JsonService.cpp.obj -MF CMakeFiles\VVP_Lab7.dir\JsonService.cpp.obj.d -o CMakeFiles\VVP_Lab7.dir\JsonService.cpp.obj -c C:\projects\VVP_Lab7\JsonService.cpp
 
 CMakeFiles/VVP_Lab7.dir/JsonService.cpp.i: cmake_force
@@ -99,16 +85,30 @@ CMakeFiles/VVP_Lab7.dir/JsonService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VVP_Lab7.dir/JsonService.cpp.s"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\projects\VVP_Lab7\JsonService.cpp -o CMakeFiles\VVP_Lab7.dir\JsonService.cpp.s
 
+CMakeFiles/VVP_Lab7.dir/main.cpp.obj: CMakeFiles/VVP_Lab7.dir/flags.make
+CMakeFiles/VVP_Lab7.dir/main.cpp.obj: C:/projects/VVP_Lab7/main.cpp
+CMakeFiles/VVP_Lab7.dir/main.cpp.obj: CMakeFiles/VVP_Lab7.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\projects\VVP_Lab7\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/VVP_Lab7.dir/main.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VVP_Lab7.dir/main.cpp.obj -MF CMakeFiles\VVP_Lab7.dir\main.cpp.obj.d -o CMakeFiles\VVP_Lab7.dir\main.cpp.obj -c C:\projects\VVP_Lab7\main.cpp
+
+CMakeFiles/VVP_Lab7.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VVP_Lab7.dir/main.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\projects\VVP_Lab7\main.cpp > CMakeFiles\VVP_Lab7.dir\main.cpp.i
+
+CMakeFiles/VVP_Lab7.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VVP_Lab7.dir/main.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\projects\VVP_Lab7\main.cpp -o CMakeFiles\VVP_Lab7.dir\main.cpp.s
+
 # Object files for target VVP_Lab7
 VVP_Lab7_OBJECTS = \
-"CMakeFiles/VVP_Lab7.dir/WeatherService.cpp.obj" \
-"CMakeFiles/VVP_Lab7.dir/JsonService.cpp.obj"
+"CMakeFiles/VVP_Lab7.dir/JsonService.cpp.obj" \
+"CMakeFiles/VVP_Lab7.dir/main.cpp.obj"
 
 # External object files for target VVP_Lab7
 VVP_Lab7_EXTERNAL_OBJECTS =
 
-VVP_Lab7.exe: CMakeFiles/VVP_Lab7.dir/WeatherService.cpp.obj
 VVP_Lab7.exe: CMakeFiles/VVP_Lab7.dir/JsonService.cpp.obj
+VVP_Lab7.exe: CMakeFiles/VVP_Lab7.dir/main.cpp.obj
 VVP_Lab7.exe: CMakeFiles/VVP_Lab7.dir/build.make
 VVP_Lab7.exe: CMakeFiles/VVP_Lab7.dir/linkLibs.rsp
 VVP_Lab7.exe: CMakeFiles/VVP_Lab7.dir/objects1.rsp

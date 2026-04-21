@@ -1,9 +1,10 @@
 #include "JsonService.h"
-#include <json.hpp>
+#include "json.hpp"
 
 #include <iostream>
 #include <string>
 #include <fstream>
+#include <stdexcept>
 
 using namespace std;
 using nlohmann::json;
@@ -11,7 +12,7 @@ using nlohmann::json;
 Weather JsonService::getWeather(string s)
 {
     std::ifstream fin(s);
-    if(!fin) throw exception("error");
+    if(!fin) throw runtime_error("error");
 
     json j;
     j = json::parse(fin);

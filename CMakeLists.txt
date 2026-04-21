@@ -4,9 +4,9 @@ project(VVP_Lab7)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(VVP_Lab7
-    WeatherService.cpp
     WeahterService.h
     Service.h
     JsonService.h
     JsonService.cpp
+    main.cpp
         )
