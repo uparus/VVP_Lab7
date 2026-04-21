@@ -5,4 +5,5 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(VVP_Lab7
     WeatherService.cpp
+    WeahterService.h
         )
