@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/projects/VVP_Lab7/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\VVP_Lab7.dir\\WeatherService.cpp.obj -c C:\\projects\\VVP_Lab7\\WeatherService.cpp",
+  "file": "C:/projects/VVP_Lab7/WeatherService.cpp",
+  "output": "CMakeFiles/VVP_Lab7.dir/WeatherService.cpp.obj"
+}
+]

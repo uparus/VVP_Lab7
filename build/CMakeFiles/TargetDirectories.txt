@@ -1,0 +1,3 @@
+C:/projects/VVP_Lab7/build/CMakeFiles/VVP_Lab7.dir
+C:/projects/VVP_Lab7/build/CMakeFiles/edit_cache.dir
+C:/projects/VVP_Lab7/build/CMakeFiles/rebuild_cache.dir
