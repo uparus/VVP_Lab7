@@ -7,7 +7,7 @@ int main(){
     Weather w = xs.getWeather("weather.xml");
     JsonService js;
     Weather ws = js.getWeather("weather.json");
-
+    w.print();
 
     return 0;
 }

@@ -19,6 +19,15 @@ public:
         double temperature = 5.69, string weather = "Rain", double windSpeed = 4.27, 
         int clouds = 100) : m_city(city), m_lon(lon), m_lat(lat), m_temperature(temperature),
         m_weather(weather), m_windSpeed(windSpeed), m_clouds(clouds){}
+    void print(){
+        cout << "City: " << m_city << "\n";
+        cout << "Longitude: " << m_lon << "\n";
+        cout << "Latitude: " << m_lat << "\n";
+        cout << "Temperature: " << m_temperature << "\n";
+        cout << "Weather: " << m_weather << "\n";
+        cout << "WindSpeed: " << m_windSpeed << "\n";
+        cout << "Clouds: " << m_clouds << "\n";
+    }
 };
 
 
