@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/VVP_Lab7.dir/XmlService.cpp.obj.d"
   "CMakeFiles/VVP_Lab7.dir/main.cpp.obj"
   "CMakeFiles/VVP_Lab7.dir/main.cpp.obj.d"
+  "CMakeFiles/VVP_Lab7.dir/pugixml-1.15/src/pugixml.cpp.obj"
+  "CMakeFiles/VVP_Lab7.dir/pugixml-1.15/src/pugixml.cpp.obj.d"
   "VVP_Lab7.exe"
   "VVP_Lab7.exe.manifest"
   "VVP_Lab7.pdb"

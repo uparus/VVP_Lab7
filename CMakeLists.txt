@@ -10,5 +10,9 @@ add_executable(VVP_Lab7
     JsonService.cpp
     main.cpp
     XmlService.h
-    XmlService.cpp
+    XmlSerive.cpp
+    pugixml-1.15/src/pugixml.cpp 
         )
+
+
+target_include_directories(VVP_Lab7 PRIVATE pugixml-1.15/src)

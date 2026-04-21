@@ -207,6 +207,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\VVP_Lab7.dir\build.make CMakeFiles/VVP_Lab7.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+pugixml-1.15/src/pugixml.obj: pugixml-1.15/src/pugixml.cpp.obj
+.PHONY : pugixml-1.15/src/pugixml.obj
+
+# target to build an object file
+pugixml-1.15/src/pugixml.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VVP_Lab7.dir\build.make CMakeFiles/VVP_Lab7.dir/pugixml-1.15/src/pugixml.cpp.obj
+.PHONY : pugixml-1.15/src/pugixml.cpp.obj
+
+pugixml-1.15/src/pugixml.i: pugixml-1.15/src/pugixml.cpp.i
+.PHONY : pugixml-1.15/src/pugixml.i
+
+# target to preprocess a source file
+pugixml-1.15/src/pugixml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VVP_Lab7.dir\build.make CMakeFiles/VVP_Lab7.dir/pugixml-1.15/src/pugixml.cpp.i
+.PHONY : pugixml-1.15/src/pugixml.cpp.i
+
+pugixml-1.15/src/pugixml.s: pugixml-1.15/src/pugixml.cpp.s
+.PHONY : pugixml-1.15/src/pugixml.s
+
+# target to generate assembly for a file
+pugixml-1.15/src/pugixml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VVP_Lab7.dir\build.make CMakeFiles/VVP_Lab7.dir/pugixml-1.15/src/pugixml.cpp.s
+.PHONY : pugixml-1.15/src/pugixml.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -226,6 +250,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... pugixml-1.15/src/pugixml.obj
+	@echo ... pugixml-1.15/src/pugixml.i
+	@echo ... pugixml-1.15/src/pugixml.s
 .PHONY : help
 
 

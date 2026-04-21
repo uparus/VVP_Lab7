@@ -4,7 +4,7 @@
 # compile CXX with C:/msys64/ucrt64/bin/g++.exe
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = @CMakeFiles/VVP_Lab7.dir/includes_CXX.rsp
 
 CXX_FLAGS = -g -std=gnu++20
 

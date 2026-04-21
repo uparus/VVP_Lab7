@@ -72,6 +72,7 @@ CMakeFiles/VVP_Lab7.dir/codegen:
 .PHONY : CMakeFiles/VVP_Lab7.dir/codegen
 
 CMakeFiles/VVP_Lab7.dir/JsonService.cpp.obj: CMakeFiles/VVP_Lab7.dir/flags.make
+CMakeFiles/VVP_Lab7.dir/JsonService.cpp.obj: CMakeFiles/VVP_Lab7.dir/includes_CXX.rsp
 CMakeFiles/VVP_Lab7.dir/JsonService.cpp.obj: C:/projects/VVP_Lab7/JsonService.cpp
 CMakeFiles/VVP_Lab7.dir/JsonService.cpp.obj: CMakeFiles/VVP_Lab7.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\projects\VVP_Lab7\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/VVP_Lab7.dir/JsonService.cpp.obj"
@@ -86,6 +87,7 @@ CMakeFiles/VVP_Lab7.dir/JsonService.cpp.s: cmake_force
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\projects\VVP_Lab7\JsonService.cpp -o CMakeFiles\VVP_Lab7.dir\JsonService.cpp.s
 
 CMakeFiles/VVP_Lab7.dir/main.cpp.obj: CMakeFiles/VVP_Lab7.dir/flags.make
+CMakeFiles/VVP_Lab7.dir/main.cpp.obj: CMakeFiles/VVP_Lab7.dir/includes_CXX.rsp
 CMakeFiles/VVP_Lab7.dir/main.cpp.obj: C:/projects/VVP_Lab7/main.cpp
 CMakeFiles/VVP_Lab7.dir/main.cpp.obj: CMakeFiles/VVP_Lab7.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\projects\VVP_Lab7\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/VVP_Lab7.dir/main.cpp.obj"
@@ -100,6 +102,7 @@ CMakeFiles/VVP_Lab7.dir/main.cpp.s: cmake_force
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\projects\VVP_Lab7\main.cpp -o CMakeFiles\VVP_Lab7.dir\main.cpp.s
 
 CMakeFiles/VVP_Lab7.dir/XmlService.cpp.obj: CMakeFiles/VVP_Lab7.dir/flags.make
+CMakeFiles/VVP_Lab7.dir/XmlService.cpp.obj: CMakeFiles/VVP_Lab7.dir/includes_CXX.rsp
 CMakeFiles/VVP_Lab7.dir/XmlService.cpp.obj: C:/projects/VVP_Lab7/XmlService.cpp
 CMakeFiles/VVP_Lab7.dir/XmlService.cpp.obj: CMakeFiles/VVP_Lab7.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\projects\VVP_Lab7\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/VVP_Lab7.dir/XmlService.cpp.obj"
@@ -113,11 +116,27 @@ CMakeFiles/VVP_Lab7.dir/XmlService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VVP_Lab7.dir/XmlService.cpp.s"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\projects\VVP_Lab7\XmlService.cpp -o CMakeFiles\VVP_Lab7.dir\XmlService.cpp.s
 
+CMakeFiles/VVP_Lab7.dir/pugixml-1.15/src/pugixml.cpp.obj: CMakeFiles/VVP_Lab7.dir/flags.make
+CMakeFiles/VVP_Lab7.dir/pugixml-1.15/src/pugixml.cpp.obj: CMakeFiles/VVP_Lab7.dir/includes_CXX.rsp
+CMakeFiles/VVP_Lab7.dir/pugixml-1.15/src/pugixml.cpp.obj: C:/projects/VVP_Lab7/pugixml-1.15/src/pugixml.cpp
+CMakeFiles/VVP_Lab7.dir/pugixml-1.15/src/pugixml.cpp.obj: CMakeFiles/VVP_Lab7.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\projects\VVP_Lab7\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/VVP_Lab7.dir/pugixml-1.15/src/pugixml.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VVP_Lab7.dir/pugixml-1.15/src/pugixml.cpp.obj -MF CMakeFiles\VVP_Lab7.dir\pugixml-1.15\src\pugixml.cpp.obj.d -o CMakeFiles\VVP_Lab7.dir\pugixml-1.15\src\pugixml.cpp.obj -c C:\projects\VVP_Lab7\pugixml-1.15\src\pugixml.cpp
+
+CMakeFiles/VVP_Lab7.dir/pugixml-1.15/src/pugixml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VVP_Lab7.dir/pugixml-1.15/src/pugixml.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\projects\VVP_Lab7\pugixml-1.15\src\pugixml.cpp > CMakeFiles\VVP_Lab7.dir\pugixml-1.15\src\pugixml.cpp.i
+
+CMakeFiles/VVP_Lab7.dir/pugixml-1.15/src/pugixml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VVP_Lab7.dir/pugixml-1.15/src/pugixml.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\projects\VVP_Lab7\pugixml-1.15\src\pugixml.cpp -o CMakeFiles\VVP_Lab7.dir\pugixml-1.15\src\pugixml.cpp.s
+
 # Object files for target VVP_Lab7
 VVP_Lab7_OBJECTS = \
 "CMakeFiles/VVP_Lab7.dir/JsonService.cpp.obj" \
 "CMakeFiles/VVP_Lab7.dir/main.cpp.obj" \
-"CMakeFiles/VVP_Lab7.dir/XmlService.cpp.obj"
+"CMakeFiles/VVP_Lab7.dir/XmlService.cpp.obj" \
+"CMakeFiles/VVP_Lab7.dir/pugixml-1.15/src/pugixml.cpp.obj"
 
 # External object files for target VVP_Lab7
 VVP_Lab7_EXTERNAL_OBJECTS =
@@ -125,11 +144,12 @@ VVP_Lab7_EXTERNAL_OBJECTS =
 VVP_Lab7.exe: CMakeFiles/VVP_Lab7.dir/JsonService.cpp.obj
 VVP_Lab7.exe: CMakeFiles/VVP_Lab7.dir/main.cpp.obj
 VVP_Lab7.exe: CMakeFiles/VVP_Lab7.dir/XmlService.cpp.obj
+VVP_Lab7.exe: CMakeFiles/VVP_Lab7.dir/pugixml-1.15/src/pugixml.cpp.obj
 VVP_Lab7.exe: CMakeFiles/VVP_Lab7.dir/build.make
 VVP_Lab7.exe: CMakeFiles/VVP_Lab7.dir/linkLibs.rsp
 VVP_Lab7.exe: CMakeFiles/VVP_Lab7.dir/objects1.rsp
 VVP_Lab7.exe: CMakeFiles/VVP_Lab7.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\projects\VVP_Lab7\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable VVP_Lab7.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\projects\VVP_Lab7\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable VVP_Lab7.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\VVP_Lab7.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
