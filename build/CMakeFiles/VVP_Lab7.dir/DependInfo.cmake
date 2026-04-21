@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/projects/VVP_Lab7/JsonService.cpp" "CMakeFiles/VVP_Lab7.dir/JsonService.cpp.obj" "gcc" "CMakeFiles/VVP_Lab7.dir/JsonService.cpp.obj.d"
   "C:/projects/VVP_Lab7/WeatherService.cpp" "CMakeFiles/VVP_Lab7.dir/WeatherService.cpp.obj" "gcc" "CMakeFiles/VVP_Lab7.dir/WeatherService.cpp.obj.d"
   )
 

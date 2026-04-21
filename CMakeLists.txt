@@ -7,4 +7,6 @@ add_executable(VVP_Lab7
     WeatherService.cpp
     WeahterService.h
     Service.h
+    JsonService.h
+    JsonService.cpp
         )

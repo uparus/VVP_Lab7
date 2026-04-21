@@ -135,6 +135,30 @@ VVP_Lab7/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\VVP_Lab7.dir\build.make CMakeFiles/VVP_Lab7.dir/build
 .PHONY : VVP_Lab7/fast
 
+JsonService.obj: JsonService.cpp.obj
+.PHONY : JsonService.obj
+
+# target to build an object file
+JsonService.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VVP_Lab7.dir\build.make CMakeFiles/VVP_Lab7.dir/JsonService.cpp.obj
+.PHONY : JsonService.cpp.obj
+
+JsonService.i: JsonService.cpp.i
+.PHONY : JsonService.i
+
+# target to preprocess a source file
+JsonService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VVP_Lab7.dir\build.make CMakeFiles/VVP_Lab7.dir/JsonService.cpp.i
+.PHONY : JsonService.cpp.i
+
+JsonService.s: JsonService.cpp.s
+.PHONY : JsonService.s
+
+# target to generate assembly for a file
+JsonService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VVP_Lab7.dir\build.make CMakeFiles/VVP_Lab7.dir/JsonService.cpp.s
+.PHONY : JsonService.cpp.s
+
 WeatherService.obj: WeatherService.cpp.obj
 .PHONY : WeatherService.obj
 
@@ -169,6 +193,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... VVP_Lab7
+	@echo ... JsonService.obj
+	@echo ... JsonService.i
+	@echo ... JsonService.s
 	@echo ... WeatherService.obj
 	@echo ... WeatherService.i
 	@echo ... WeatherService.s
